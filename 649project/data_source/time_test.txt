@@ -1,0 +1,173 @@
+time test(high pixel image)--search all the image in the target folder:
+
+
+SIFT and Flann:
+9.237250
+9.177679
+9.243215
+9.187756
+9.198873
+9.223379
+9.243765
+9.167329
+9.193672
+9.235970
+
+average time: 9.2108898 sec
+average time/ 10 (average time per image): 0.92108898
+
+SURF and Flann:
+13.548847
+13.627908
+13.600230
+13.599074
+13.508745
+13.599174
+13.539765
+13.604632
+13.579723
+13.523865
+
+average time: 13.5722963 sec
+average time/ 10 (average time per image): 13.5722963
+
+ORB and Flann:
+0.299218
+0.284662
+0.284061
+0.298957
+0.293025
+0.284131
+0.275820
+0.303769
+0.297801
+0.298630
+
+average time: 0.2920074
+average time/ 10 (average time per image): 0.2920074
+
+Brisk and Flann:
+3.790024
+4.582329
+4.009896
+3.867629
+3.891332
+3.921904
+4.013789
+3.785579
+3.796487
+4.000377
+
+average time: 3.9662739
+average time/ 10 (average time per image): 0.39662739
+
+orb and bf match:
+
+0.544135
+0.571866
+0.571853
+0.561424
+0.566649
+0.579345
+0.568235
+0.551397
+0.560818
+0.538846
+
+average time:0.56076878
+average time/ 10 (average time per image): 0.56076878
+
+SIFT and bf match
+
+10.573436
+10.557332
+10.682712
+10.743858
+10.829152
+10.693331
+10.619325
+10.756923
+10.547569
+10.697125
+
+average time:10.6710762
+average time/ 10 (average time per image): 1.06710762
+
+
+SURF and bf match
+14.590776
+14.492576
+14.617228
+14.534343
+14.611186
+14.466690
+14.505905
+14.527844
+14.539724
+14.591683
+
+average time: 14.5477955
+average time/ 10 (average time per image): 1.45477955
+
+brisk and bf match
+11.641443
+11.461356
+11.512749
+11.499656
+11.631547
+11.507235
+11.547983
+11.522238
+11.500689
+11.549932
+
+average time: 11.5374829
+average time/ 10 (average time per image): 1.15374829
+
+
+##################################################
+average time for test image from iphone(test 10 image and get average T_total/10):
+
+SIFT and flann: 30.64 sec per image
+
+SURF and Flann: 60.14 sec per image
+
+ORB and Flann: 0.97sec  per image
+
+Brisk and Flann: 1.89 sec per image
+
+ORB and bf match: 0.49 sec per image
+
+SIFT and bf match: 45.69 sec per image
+
+SURF and bf match: 76.24 secper image
+
+Brisk and bf match: 10.52 sec per image
+
+
+#####################################################
+accuracy(image from iphone):
+SIFT and flann: 12/12
+
+SURF and Flann: 12/12
+
+ORB and Flann: 11/12
+
+Brisk and Flann: 9/12
+
+ORB and bf match: 6/12
+
+brisk and bf match: 11/12
+
+SIFT and bf match: 12/12
+
+SURF and bf match :12/12
+
+
+
+
+
+
+
+
+
